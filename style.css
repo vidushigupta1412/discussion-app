@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    text-align: center;
+    padding-top: 6px;
+    font-size: x-large;
+    background-color: #008080;
+    color: white;
+}
+
+.maindiv{
+    height: 900px;
+    width: 100vw;
+    background-color: #008080;
+    display: flex;
+    gap:1px;
+
+}
+
+.div1{
+    height: 550px;
+    width: 700px;
+    background-color: white;
+   margin-top: 20px;
+   display: none;
+}
+
+#welcome{
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+#ins{
+    font-size: 400;
+    margin-Left : 40px;
+    padding-top: 20px;
+}
+
+#subject{
+    margin-left: 40px;
+    border: 2px solid #008080;
+    margin-top: 20px;
+}
+
+#subject:hover{
+     box-shadow: 10px 10px 5px lightblue; 
+     height: 30px;
+     font-size: large;
+     color: BLACK;
+     
+}
+
+#question{
+    border: 2px solid #008080;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#question:hover{
+    box-shadow: 10px 10px 5px lightblue; 
+    color: black;
+    
+}
+
+#submit{
+    margin-top: 20px;
+    border: 2px solid #008080;
+    height: 30px;
+    width: 70px;
+    margin-left: 600px;
+}
+
+#submit:hover, #newq:hover{
+    box-shadow: 10px 10px 5px lightblue;
+    background-color: #008080;
+    color: white;
+    font-size: 20px;
+}
+
+#div2{
+    margin-left: 30px;
+    background-color: #008080;
+    width:500px;
+    height:550px;
+    margin-top: 20px;
+}
+
+.dabba{
+    background-color: #008080;
+    width:500px;
+    height:440px;
+    overflow:hidden;
+    overflow-y: auto;
+   
+}
+
+#div3{
+    height: 100px;
+    width: 495px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+#newq{
+    border: 2px solid #008080;
+    border-radius: 5px;
+    /* color: white; */
+    height: 50px;
+    width: 200px;
+    /* font-size: 20px;
+    background-color: #54d3d3; */
+}
+
+/* Javascript ki css */
+
+.firstdiv{
+    border: 2px solid #008080;
+    height: 100px;
+    width: 497px;
+    background-color: white;
+    color: white;
+}
+
+#heading{
+    text-align: center;
+    color: black;
+}
+
+#para1{
+    color: black;
+    font-size: large;
+}
+
+.qdiv{
+    height: 550px;
+    width: 700px;
+    background-color: white;
+   margin-top: 20px;
+}
+
+#responsediv{
+    height: 720px;
+    width: 900px;
+    background-color: white;
+   margin-top: 20px;
+   display: none;
+}
+
+#resq{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+#qdiv{
+    min-height: 80px;
+    width: 90%;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    background-color: #008080;
+    color: black;
+    margin-left: 40px;
+}
+
+#qhead{
+    margin-left: 20px;
+    font-size: 30px;
+    color: black;
+}
+
+#qpara{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#hide{
+    font-size: 30px;
+    margin-top: 4px;
+    color: Black;
+    display: none;
+    margin-left: 40px;
+}
+
+#resolve{
+    height: 28px;
+    width: 80px;
+    background-color: #f5f3ee;
+    border: 2px solid #008080;
+    margin-left: 770px;
+}
+
+#resolve:hover{
+    box-shadow: 10px 10px 5px lightblue;
+    background-color: #008080;
+    color: white;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+.ansR{
+    height: 80px;
+    width: 92%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 40px;
+    background-color: #008080;
+    overflow: auto;
+    display: none;
+}
+
+#nameR{
+    height: 40px;
+    width: 250px;
+    display: block;
+    margin-top: 4px;
+    margin-bottom: 14px;
+    background-color: #f5f3ee;
+    border: 2px solid #008080;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: 40px;
+}
+
+#commentR{
+    margin-top: 4px;
+    margin-bottom: 14px;
+    background-color: #f5f3ee;
+    border: 2px solid #008080;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: 40px;
+}
+
+#submitR{
+    height: 28px;
+    width: 80px;
+    background-color: #f5f3ee;
+    border: 2px solid #008080;
+    margin-left: 590px;
+}
+
+#submitR:hover{
+    box-shadow: 10px 10px 5px lightblue;
+    background-color: #008080;
+    color: white;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+#ansR{
+    margin-left: 300px;
+    font-size: 35px;
+    color: #f5f3ee;
+}
+
+#ansRP{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#headR
+{
+    margin-left: 40px;
+}
+
+
+#v{
+    visibility: hidden;
+    height: 100px;
+    width: 90%;
+    margin-left: 40px;
+    background-color: #008080;
+    color: black;
+    overflow-y: auto;
+}
+
+#Rhead, #Rpara{
+    margin-left: 20px;
+    color: black;
+}
+#rdiv{
+    background-color: white;
+    margin: 10px;
+}
+
+#mydiv{
+    background-color: #008080;
+    width: 500px;
+    overflow-x: auto;
+    margin: 10px;
+    margin-left: 90px;
+}
